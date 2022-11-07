@@ -1,0 +1,40 @@
+.task_check_box{
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: .5em;
+    font-size: 1.5em;
+}
+
+.task_check_box:hover{
+    cursor: pointer;
+    background-color: rgb(241, 241, 241); 
+}
+
+.task_input_box{
+    padding: 1em;
+}
+
+.task_wrapper{
+    width: 400px;
+    height: 100px;
+    margin: 0 auto 0;
+    box-shadow: .25em .25em 1em rgba(0, 0, 0, 0.162);
+    border-radius: .15em;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.task_open{
+    color: black;
+    margin-left: 1em;
+}
+
+.task_closed{
+    color: grey;
+    text-decoration:line-through;
+    margin-left: 1em;
+}

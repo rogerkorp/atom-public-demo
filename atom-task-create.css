@@ -1,0 +1,9 @@
+.text_input_box{
+    width: 30em;
+    height: 2em;
+    margin: 0 auto 0;
+    border: solid 1px lightgray;
+    border-radius: 25em;
+    padding: 1em;
+    margin-top: 1em;
+}
