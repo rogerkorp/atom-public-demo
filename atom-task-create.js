@@ -1,6 +1,9 @@
 import React, {useState} from 'react';
 import * as ReactDOM from 'react-dom/client';
 import './atom-task-create.css'
+import './atom-task.css'
+import './edit-test.js';
+import TaskTest from './edit-test.js';
 
 //Alright, so I'm going to have to leave note here in order to help me remember how this works. -RK
 //Dylan, if you're reading this feel free to add on to this. Consider it a teaching opportunity. -RK
@@ -65,6 +68,7 @@ class TaskForm extends React.Component {
                 </form>
           {taskList}
           </div>
+
         );
       }
     }
